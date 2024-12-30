@@ -1,0 +1,38 @@
+
+
+React Task: To-Do List App
+Create a simple To-Do List App with the following features:
+
+Requirements:
+
+
+
+Components:
+
+App: The main component that renders the entire application.
+Header: A component to display the title of your app.
+AddTask: A component with:
+An input field to add a new task.
+A button to submit the task.
+TaskList: A component to display all tasks passed as props.
+TaskItem: A component for individual task items.
+
+
+Props:
+
+Pass task data from App to TaskList.
+Pass individual task details from TaskList to TaskItem.
+State Management:
+
+Use useState in the App component to manage the list of tasks.
+When a new task is added via AddTask, update the task list in App.
+
+
+Functionality:
+
+Allow users to add new tasks.
+Display all tasks in the TaskList component.
+Extra Challenge (Optional):
+Add a button to remove tasks.
+Allow users to mark tasks as completed.
+Would you like a starting code snippet or some guidance on any part of the task?
