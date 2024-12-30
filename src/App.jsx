@@ -5,9 +5,9 @@ import TaskList from "./Components/TaskList";
 
 const App = () => {
   const [inputTask, setInputTask] = useState("");
-  const [taskList, setTaskList] = useState([{}]);
+  const [taskList, setTaskList] = useState([]);
   const [editIndex, seteditIndex] = useState(null);
-  const [editInput, seteditInput] = useState("");
+  // const [editInput, seteditInput] = useState("");
 
   const addTaskHandler = () => {
     if (editIndex !== null) {
